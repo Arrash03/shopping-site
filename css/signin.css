@@ -1,0 +1,73 @@
+body {
+    background-color: #dce2eb;
+}
+.body {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    padding: 30px;
+}
+
+.body .col-lg-7 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.body .signin-form {
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgb(221, 223, 239) 0%, rgb(20, 86, 153) 81.3% ); 
+    height: fit-content;
+    padding: 30px;
+    border: 1px solid #95befe;
+    border-radius: 15px;
+    padding: 20px 15px;
+    box-shadow: 0 2px 8px 0 rgba(96, 151, 203, 0.67);
+
+}
+
+.body .signin-form form {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-rows: repeat(auto-fit, 1fr);
+    font-size: 1em;
+
+}
+
+.body .signin-form form label {
+    color:#dce2eb ;
+    cursor: pointer;
+}
+
+.body .signin-form form input {
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.body .signin-form form .submit {
+    width: fit-content;
+    padding: 10px 15px;
+    background-color: #33884b;
+    color: white;
+    font-size: 1.1em;
+    position: absolute;
+    left: 40px;
+    bottom: 10px;
+}
+
+.body .signin-form form .radio {
+    width:fit-content ;
+}
+
+.body .col-lg-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body .col-lg-5 img {
+    width: 80%;
+    border-radius: 20px;
+}

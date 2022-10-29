@@ -1,0 +1,19 @@
+@font-face {
+    font-family: persian-badkht2;
+    src: url(../font/persian-badkh@t2.ttf);
+}
+
+* {
+    direction: rtl;
+    box-sizing: border-box;
+    font-family: persian-badkht2;
+}
+
+body {
+    font-size: 20px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
